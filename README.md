@@ -11,6 +11,7 @@ For now it doesn't have any constant hosting (It's just a prototype), so it can 
 * Config file to store data like token
 * Answering on voice chat
 * Find a hosting
+* Add a counter of **bruh moments** on server
 
 </br> </br> </br> </br>
 **bruh...**
