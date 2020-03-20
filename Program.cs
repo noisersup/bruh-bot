@@ -26,7 +26,7 @@ namespace bruh_bot
             return Task.CompletedTask;
         }
         private async Task MessageReceived(SocketMessage msg){
-            if(msg.Content.ToLower().Contains("bruh") && msg.Author.Id != _client.CurrentUser.Id){
+            if(msg.Content.ToLower().Replace(" ",String.Empty).Contains("bruh") && msg.Author.Id != _client.CurrentUser.Id){
                 await msg.Channel.SendMessageAsync("bruh");
                 Console.WriteLine(msg.Author.Username+" said \""+msg.Content+"\"");
             }
