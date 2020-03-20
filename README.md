@@ -8,11 +8,11 @@ For now it doesn't have any constant hosting (It's just a prototype), so it can 
 
 ## TO-DO
 * :heavy_check_mark: Basic answering **"bruh"** on chat
+* :heavy_check_mark: Ignore spaces between letters (Now you can type **b r u h** or **b r    u  h**)
 * Config file to store data like token
 * Answering on voice chat
 * Find a hosting
 * Add a counter of **bruh moments** on server
-* Detect spaces between letters
 
 </br> </br> </br> </br>
 **bruh...**
